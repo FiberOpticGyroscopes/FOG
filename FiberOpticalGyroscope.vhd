@@ -1,3 +1,4 @@
+----Fiber Optical Gyroscope Source Code
 LIBRARY  ieee;
 USE ieee.STD_LOGIC_1164.ALL;
 USE ieee.STD_LOGIC_arith.ALL;
