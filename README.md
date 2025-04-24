@@ -1,4 +1,4 @@
-# Fiber Optic Gyroscope (FOG)
+# Digital Closed-Loop Fiber Optic Gyroscope (FOG)
 A Fiber Optic Gyroscope is a type of gyroscope that uses light and fiber optics to measure angular velocity. It operates on the principle of the Sagnac effect, which states that when light travels in opposite directions around a rotating loop, the time taken by the two beams will differ based on the rotational motion of the loop.
 ## Key Features
 - **High Precision**: FOGs provide very accurate measurements of rotation, making them ideal for navigation systems in aircraft, ships, and spacecraft.
@@ -11,3 +11,6 @@ A Fiber Optic Gyroscope is a type of gyroscope that uses light and fiber optics 
 3. **Interference**: When the beams meet again after traveling around the coil, they create an interference pattern that changes based on the rotation rate.
 4. **Measurement**: The phase shift between the two beams is measured to determine the angular velocity.
 FOGs are increasingly popular in modern inertial navigation systems due to their accuracy and reliability.
+## Description of Fiber Optic Gyroscope Source Code Operation
+In a Fiber Optic Gyroscope, modulation is produced in both positive and negative directions, and these angular velocities are superimposed. The resulting changes in light intensity are detected by a sensor. 
+The error in this intensity measurement is then accumulated, resulting in the current angular velocity at that moment.
